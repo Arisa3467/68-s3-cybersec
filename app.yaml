@@ -7,10 +7,4 @@ services:
     restart: unless-stopped
     ports:
       - "${APP_PORT}:80"
-    networks:
-      - backend
-    read_only: true
-
-networks:
-  backend:
-    driver: bridge
+    
