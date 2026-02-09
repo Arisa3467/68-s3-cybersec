@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   s3app:
-    image: nginx:alpine
+    image: prawee/stappy
     container_name: 68-s3-app
     restart: unless-stopped
     ports:
